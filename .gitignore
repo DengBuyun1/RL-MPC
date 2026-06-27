@@ -1,0 +1,97 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments and local dependency folders
+.venv/
+venv/
+env/
+ENV/
+site-packages/
+node_modules/
+
+# IDE, editor, and OS files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and local runtime state
+*.log
+logs/
+*.pid
+*.tmp
+*.temp
+
+# Experiment outputs and scratch space
+outputs/
+output/
+runs/
+scratch/
+tmp/
+temp/
+figures/
+plots/
+reports/
+
+# Model checkpoints and learned artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+*.npz
+*.npy
+
+# Generated experiment tables and rendered media
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.tif
+*.tiff
+*.pdf
+*.pptx
+
+# Keep required simulator parameter CSVs
+!src/envs/**/simglucose/params/*.csv
+
+# Keep curated ARX configuration JSONs, ignore run-generated config dumps elsewhere
+*.json
+!configs/**/*.json
+
+# ReplayBG / DT heavy generated artifacts
+workspace*.pkl
+chains/
+replay_results/
+twinning_results/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Local environment overrides
+.env
+.env.*
+!.env.example
