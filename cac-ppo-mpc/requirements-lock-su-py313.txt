@@ -1,0 +1,9 @@
+# Local SU verification environment; not the server paper lock.
+# python-version==3.13.7
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.16.2
+torch==2.9.1+cpu
+gymnasium==0.29.1
+matplotlib==3.10.7
+setuptools==78.1.1

@@ -1,0 +1,50 @@
+{
+  "__meta__": {
+    "prior_type": "arithmetic_mean_of_training_patient_priors",
+    "source_patient_ids": [
+      "adult#001",
+      "adult#002",
+      "adult#003",
+      "adult#004",
+      "adult#005"
+    ],
+    "excluded_from_prior": "all validation, test, adolescent, and child patients",
+    "online_adaptation": "ARX-RLS",
+    "training_controller": "BBController",
+    "glucose_column": "cgm",
+    "hours_per_trace": 18.0,
+    "train_seeds": [101, 211],
+    "validation_seeds": [307],
+    "sample_time_min": 5.0,
+    "theta_input_mode": "uhat",
+    "order": 6,
+    "u_delay_steps": 3,
+    "m_delay_steps": 1,
+    "ridge_alpha": 10.0
+  },
+  "__population__": {
+    "group": "adult_training_population",
+    "order": 6,
+    "theta": [
+      2.1834196511303974,
+      -1.6732642274574938,
+      0.36532807574123416,
+      0.1433643567138863,
+      0.06549691065985307,
+      -0.1004116128331296,
+      -0.03062436227271534,
+      -0.08047918556719115,
+      -0.05978694924680776,
+      -0.04532343536794344,
+      -0.026532423874607948,
+      -0.009901637280268171,
+      0.04665206655909855,
+      0.0802823972118746,
+      0.2842730202424118,
+      0.08299625557547287,
+      0.03963196498101309,
+      0.04737798791715969,
+      1.7866062285748783
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "execution_complete": true,
+  "claim_valid": false,
+  "expected_runs": 100,
+  "completed_runs": 100,
+  "invalid_runs": 11,
+  "protocol_fingerprint": "standalone",
+  "protocol_version": "causal_model_compat_v4",
+  "model_condition": "nominal",
+  "arx_prior_label": "matched_adult_population",
+  "compatibility_calibration_sha256": ""
+}

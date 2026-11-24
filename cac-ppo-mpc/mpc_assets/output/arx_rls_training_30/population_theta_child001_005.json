@@ -1,0 +1,48 @@
+{
+  "__meta__": {
+    "schema_version": "training_only_population_prior_v1",
+    "prior_type": "arithmetic_mean_child001_005_training_only",
+    "source_patient_ids": [
+      "child#001",
+      "child#002",
+      "child#003",
+      "child#004",
+      "child#005"
+    ],
+    "source_files_sha256": {
+      "adult_prior_sha256": "2307f94de1590c83ca21bbdf1e122743ceb4d080a2b1b43f5d522de074708ca1",
+      "theta_bank_sha256": "767be0aef6f42eb2c80cb6fdae71641b3c579d152016f9d76ac0a3006846be8c"
+    },
+    "selection_rule": "only explicitly listed source_patient_ids are read",
+    "excluded_from_prior": "adult#006-010 and all validation/test trajectories",
+    "online_adaptation": "ARX-RLS",
+    "theta_input_mode": "uhat",
+    "order": 6,
+    "blend_weight_child": 1.0
+  },
+  "__population__": {
+    "group": "child001_005_training_population",
+    "order": 6,
+    "theta": [
+      2.1172626064416886,
+      -1.5702028916876953,
+      0.3648644691997877,
+      0.03236115862851435,
+      0.13960331192157577,
+      -0.10514113160450869,
+      -0.010021068414598055,
+      -0.014760266996187663,
+      -0.03007276676026327,
+      -0.02529695046554838,
+      -0.016738707971312366,
+      -0.0070190254996487875,
+      0.07596628046402462,
+      0.19187314680013143,
+      0.1591147970548096,
+      0.1708789782194351,
+      0.09362766068523357,
+      0.028323812413239856,
+      1.541848705360548
+    ]
+  }
+}
